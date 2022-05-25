@@ -149,14 +149,14 @@ p.amazing1 {
     position: absolute;
     font-size: 18px;
     top: 20px;
-    width: 180px;
+    width: 360px;
 }
 
 p.loren1 {
     position: absolute;
     font-size: 15px;
     top: 50px;
-    width: 180px;
+    width: 360px;
 }
 
 p.amazing2 {
@@ -164,15 +164,15 @@ p.amazing2 {
     font-size: 18px;
     top: 20px;
     left: 200px;
-    width: 180px;
+    width: 360px;
 }
 
 p.loren2 {
     position: absolute;
     font-size: 15px;    
     top: 50px;
-    left: 200px;
-    width: 180px;
+    left: 400px;
+    width: 360px;
 }
 
 p.amazing3 {
@@ -180,13 +180,13 @@ p.amazing3 {
     font-size: 18px;
     top: 20px;
     left: 400px;
-    width: 180px;
+    width: 360px;
 }
 
 p.loren3 {
     position: absolute;
     font-size: 15px;
     top: 50px;
-    left: 400px;
-    width: 180px;
+    left: 800px;
+    width: 360px;
 }
