@@ -60,12 +60,21 @@ div.blue_container {
     height: 510px;
 }
 
-div.caps_textbox {
+div.dont_textbox {
+    position: absolute;
+    color: #e4e9ed;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 50px;
+    top: 50px;
+}
+
+div.improve_textbox {
     position: absolute;
     color: #e4e9ed;
     font-family: Arial, Helvetica, sans-serif;
     left: 50px;
     right: 50px;
+    top:80px;
 }
 
 p.dontwait {
