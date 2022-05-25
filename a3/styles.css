@@ -5,6 +5,7 @@ h4.menu {
 
 div.img_container {
     position: relative;
+    background-size: cover;
     background-image: url('lawyer.jpg');
     width: 1600px;
     height: 853px;
