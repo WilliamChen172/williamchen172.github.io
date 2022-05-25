@@ -1,6 +1,32 @@
+div.header {
+    position: relative;
+    background-color: #ffffff;
+    width: 1600px;
+    height: 150px;
+}
 
-h4.menu {
+div.menu_container {
+    position: absolute;
+    left: 175px;
+    top: 75px;
+}
+
+p.menu {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: black;
+}
+
+div.link_container {
+    position: absolute;
+    top: 75px;
+    right: 150px;
+}
+
+a.link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color:#9f9f9f;
 }
 
 div.img_container {
