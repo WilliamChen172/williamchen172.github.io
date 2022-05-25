@@ -135,12 +135,12 @@ div.features {
     background-color: white;
     position: relative;
     width: 1600px;
-    height: 300px;
+    height: 477px;
 }
 
 div.feature_container {
     position: absolute;
-    top: 200px;
+    top: 175px;
     left: 175px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -148,45 +148,52 @@ div.feature_container {
 p.amazing1 {
     position: absolute;
     font-size: 18px;
-    top: 20px;
     width: 360px;
 }
 
 p.loren1 {
     position: absolute;
     font-size: 15px;
-    top: 50px;
-    width: 360px;
+    color: #ababab;
+    top: 40px;
+    width: 380px;
 }
 
 p.amazing2 {
     position: absolute;
     font-size: 18px;
-    top: 20px;
-    left: 200px;
+    left: 440px;
     width: 360px;
 }
 
 p.loren2 {
     position: absolute;
-    font-size: 15px;    
-    top: 50px;
-    left: 400px;
-    width: 360px;
+    font-size: 15px;
+    color: #ababab;    
+    top: 40px;
+    left: 440px;
+    width: 380px;
 }
 
 p.amazing3 {
     position: absolute;
     font-size: 18px;
-    top: 20px;
-    left: 400px;
+    left: 890px;
     width: 360px;
 }
 
 p.loren3 {
     position: absolute;
     font-size: 15px;
-    top: 50px;
-    left: 800px;
-    width: 360px;
+    color: #ababab;
+    top: 40px;
+    left: 890px;
+    width: 380px;
+}
+
+div.graybar {
+    background-color: #f4f4f4;
+    position: relative;
+    width: 1600px;
+    height: 88px;
 }
