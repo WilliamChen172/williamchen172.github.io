@@ -73,7 +73,7 @@ p.dontwait {
 }
 
 p.improve {
-    font-size: 30px;
+    font-size: 36px;
 }
 
 p.yellowtext {
@@ -83,9 +83,10 @@ p.yellowtext {
     font-style: italic;
     font-size: 18px;
     left: 50px;
+    top: 150px;
 }
 
-div.whitetextbox {
+div.white_textbox {
     position: absolute;
     background-color: #ffffff;
     left: 50px;
@@ -98,7 +99,7 @@ p.email {
     font-size: 24px;
 }
 
-div.yellowtextbox {
+div.yellow_textbox {
     position: absolute;
     background-color: #fadd15;
     left: 50px;
