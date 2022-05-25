@@ -20,19 +20,19 @@ p.menu {
 div.about_container {
     position: absolute;
     top: 40px;
-    right: 370px;
+    right: 378px;
 }
 
 div.projects_container {
     position: absolute;
     top: 40px;
-    right: 285px;
+    right: 293px;
 }
 
 div.services_container {
     position: absolute;
     top: 40px;
-    right: 200px;
+    right: 208px;
 }
 
 a.link {
@@ -77,8 +77,9 @@ p.improve {
 }
 
 p.yellowtext {
+    position: absolute;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #fadd15;
+    color: #fadd15;
     font-style: italic;
     font-size: 18px;
 }
@@ -87,13 +88,12 @@ div.whitetextbox {
     position: absolute;
     background-color: #ffffff;
     left: 50px;
-    width: 100px;
-    height: 50px;
 }
 
 p.email {
     font-family: Arial, Helvetica, sans-serif;
     color: #212223;
+    background-color: #ffffff;
     font-size: 24px;
 }
 
@@ -101,11 +101,10 @@ div.yellowtextbox {
     position: absolute;
     background-color: #fadd15;
     left: 50px;
-    width: 100px;
-    height: 50px;
 }
 
 p.signup {
     font-family: Arial, Helvetica, sans-serif;
     color:#161617;
+    background-color: #fadd15;
 }
