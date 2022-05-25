@@ -65,7 +65,7 @@ div.dont_textbox {
     color: #e4e9ed;
     font-family: Arial, Helvetica, sans-serif;
     left: 50px;
-    top: 50px;
+    top: 45px;
 }
 
 div.improve_textbox {
@@ -74,11 +74,11 @@ div.improve_textbox {
     font-family: Arial, Helvetica, sans-serif;
     left: 50px;
     right: 50px;
-    top:80px;
+    top: 40px;
 }
 
 p.dontwait {
-    font-size: 24px;
+    font-size: 15px;
 }
 
 p.improve {
@@ -90,16 +90,16 @@ p.yellowtext {
     font-family: Arial, Helvetica, sans-serif;
     color: #fadd15;
     font-style: italic;
-    font-size: 18px;
+    font-size: 14px;
     left: 50px;
-    top: 230px;
+    top: 222px;
 }
 
 div.white_textbox {
     position: absolute;
     background-color: #ffffff;
     left: 50px;
-    top:300px;
+    top:280px;
     right:50px;
     height:60px;
 }
@@ -117,11 +117,16 @@ div.yellow_textbox {
     position: absolute;
     background-color: #fadd15;
     left: 50px;
-    top:400px;
+    top:370px;
+    width: 180px;
+    height: 50px;
 }
 
 p.signup {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
     color:#161617;
     background-color: #fadd15;
+    margin-left: 20px;
+    margin-top: 17px;
 }
