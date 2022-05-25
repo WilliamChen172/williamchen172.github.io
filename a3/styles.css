@@ -135,7 +135,7 @@ div.features {
     background-color: white;
     position: relative;
     width: 1600px;
-    height: 500px;
+    height: 300px;
 }
 
 div.feature_container {
@@ -149,44 +149,44 @@ p.amazing1 {
     position: absolute;
     font-size: 18px;
     top: 20px;
-    width: 80px;
+    width: 180px;
 }
 
 p.loren1 {
     position: absolute;
     font-size: 15px;
     top: 50px;
-    width: 80px;
+    width: 180px;
 }
 
 p.amazing2 {
     position: absolute;
     font-size: 18px;
     top: 20px;
-    left: 100px;
-    width: 80px;
+    left: 200px;
+    width: 180px;
 }
 
 p.loren2 {
     position: absolute;
     font-size: 15px;    
     top: 50px;
-    left: 100px;
-    width: 80px;
+    left: 200px;
+    width: 180px;
 }
 
 p.amazing3 {
     position: absolute;
     font-size: 18px;
     top: 20px;
-    left: 200px;
-    width: 80px;
+    left: 400px;
+    width: 180px;
 }
 
 p.loren3 {
     position: absolute;
     font-size: 15px;
     top: 50px;
-    left: 200px;
-    width: 80px;
+    left: 400px;
+    width: 180px;
 }
