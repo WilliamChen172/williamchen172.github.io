@@ -17,7 +17,19 @@ p.menu {
     color: #363636;
 }
 
-div.link_container {
+div.about_container {
+    position: absolute;
+    top: 40px;
+    right: 300px;
+}
+
+div.projects_container {
+    position: absolute;
+    top: 40px;
+    right: 250px;
+}
+
+div.services_container {
     position: absolute;
     top: 40px;
     right: 200px;
@@ -27,6 +39,7 @@ a.link {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     color:#9f9f9f;
+    text-decoration: none;
 }
 
 div.img_container {
