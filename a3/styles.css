@@ -19,19 +19,19 @@ p.menu {
 
 div.about_container {
     position: absolute;
-    top: 40px;
+    top: 45px;
     right: 378px;
 }
 
 div.projects_container {
     position: absolute;
-    top: 40px;
+    top: 45px;
     right: 293px;
 }
 
 div.services_container {
     position: absolute;
-    top: 40px;
+    top: 45px;
     right: 208px;
 }
 
@@ -154,7 +154,7 @@ p.amazing1 {
 p.loren1 {
     position: absolute;
     font-size: 15px;
-    color: #ababab;
+    color: #6b6b6b;
     top: 40px;
     width: 380px;
 }
@@ -169,7 +169,7 @@ p.amazing2 {
 p.loren2 {
     position: absolute;
     font-size: 15px;
-    color: #ababab;    
+    color: #6b6b6b;    
     top: 40px;
     left: 440px;
     width: 380px;
@@ -185,7 +185,7 @@ p.amazing3 {
 p.loren3 {
     position: absolute;
     font-size: 15px;
-    color: #ababab;
+    color: #6b6b6b;
     top: 40px;
     left: 890px;
     width: 380px;
@@ -195,5 +195,5 @@ div.graybar {
     background-color: #f4f4f4;
     position: relative;
     width: 1600px;
-    height: 88px;
+    height: 120px;
 }
