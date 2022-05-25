@@ -1,8 +1,50 @@
+
+h4.menu {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 img.lawyer {
     width: 1600;
     height: 853;
 }
 
-h4.menu {
+.blue_container {
+    position: relative;
+    color: #0c3c5d;
+}
+
+p.dontwait {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+h3.improve {
+    font-family: 'Arial Light', Arial, sans-serif;
+}
+
+p.yellowtext {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fadd15;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.whitetextbox {
+    position: relative;
+    color: #e4e9ed;
+}
+
+p.email {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #363738;
+    font-size: 24px;
+}
+
+.yellowtextbox {
+    position: relative;
+    color: #fadd15;
+}
+
+p.signup {
     font-family: Arial, Helvetica, sans-serif;
 }
