@@ -2,25 +2,25 @@ div.header {
     position: relative;
     background-color: #ffffff;
     width: 1600px;
-    height: 150px;
+    height: 120px;
 }
 
 div.menu_container {
     position: absolute;
     left: 175px;
-    top: 75px;
+    top: 30px;
 }
 
 p.menu {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
-    color: black;
+    color: #363636;
 }
 
 div.link_container {
     position: absolute;
-    top: 75px;
-    right: 150px;
+    top: 40px;
+    right: 200px;
 }
 
 a.link {
