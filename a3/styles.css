@@ -203,4 +203,5 @@ div.graybar {
     position: relative;
     width: 1600px;
     height: 170px;
+    left: -8px;
 }
