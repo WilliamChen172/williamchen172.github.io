@@ -42,6 +42,10 @@ a.link {
     text-decoration: none;
 }
 
+a.link:hover {
+    color:black;
+}
+
 div.img_container {
     position: relative;
     background-size: cover;
