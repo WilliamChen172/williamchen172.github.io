@@ -8,31 +8,31 @@ div.header {
 div.menu_container {
     position: absolute;
     left: 175px;
-    top: 30px;
+    top: 55px;
 }
 
 p.menu {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Encode Sans', sans-serif;
     font-size: 18px;
     color: #363636;
 }
 
 div.about_container {
     position: absolute;
-    top: 50px;
-    right: 378px;
+    top: 55px;
+    right: 370px;
 }
 
 div.projects_container {
     position: absolute;
-    top: 50px;
-    right: 293px;
+    top: 55px;
+    right: 285px;
 }
 
 div.services_container {
     position: absolute;
-    top: 50px;
-    right: 208px;
+    top: 55px;
+    right: 200px;
 }
 
 a.link {
@@ -52,7 +52,8 @@ div.img_container {
     background-image: url('lawyer.jpg');
     width: 1600px;
     height: 853px;
-    left:-8px;
+    margin: 0;
+    /* left:-8px; */
 }
 
 div.blue_container {
@@ -67,18 +68,20 @@ div.blue_container {
 div.dont_textbox {
     position: absolute;
     color: #e4e9ed;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Encode Sans SC', sans-serif;
     left: 50px;
-    top: 45px;
+    top: 60px;
 }
 
 div.improve_textbox {
     position: absolute;
     color: #e4e9ed;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Encode Sans SC', sans-serif;
     left: 50px;
-    right: 50px;
-    top: 40px;
+    right: 40px;
+    top: 80px;
+    line-height: 1.1;
+    
 }
 
 p.dontwait {
@@ -96,7 +99,7 @@ p.yellowtext {
     font-style: italic;
     font-size: 14px;
     left: 50px;
-    top: 222px;
+    top: 235px;
 }
 
 div.white_textbox {
@@ -115,6 +118,7 @@ p.email {
     background-color: #ffffff;
     font-size: 18px;
     left:12px;
+    top: 18px;
 }
 
 div.yellow_textbox {
@@ -127,12 +131,12 @@ div.yellow_textbox {
 }
 
 p.signup {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Encode Sans SC', sans-serif;
     font-size: 14px;
     color:#161617;
     background-color: #fadd15;
     margin-left: 20px;
-    margin-top: 17px;
+    margin-top: 16px;
 }
 
 div.features {
@@ -147,12 +151,14 @@ div.feature_container {
     top: 145px;
     left: 175px;
     font-family: Arial, Helvetica, sans-serif;
+    color: black;
 }
 
 p.amazing1 {
     position: absolute;
-    font-size: 18px;
+    font-size: 16px;
     width: 360px;
+    font-family: 'Encode Sans SC', sans-serif;
 }
 
 p.loren1 {
@@ -166,9 +172,10 @@ p.loren1 {
 
 p.amazing2 {
     position: absolute;
-    font-size: 18px;
+    font-size: 16px;
     left: 440px;
     width: 360px;
+    font-family: 'Encode Sans SC', sans-serif;
 }
 
 p.loren2 {
@@ -183,9 +190,10 @@ p.loren2 {
 
 p.amazing3 {
     position: absolute;
-    font-size: 18px;
+    font-size: 16px;
     left: 890px;
     width: 360px;
+    font-family: 'Encode Sans SC', sans-serif;
 }
 
 p.loren3 {
@@ -203,5 +211,13 @@ div.graybar {
     position: relative;
     width: 1600px;
     height: 170px;
-    left: -8px;
+    /* left: -8px; */
+    border: 0;
+}
+
+* {
+    margin: 0px;
+    padding: 0px; 
+    outline: none;
+    border: 0px;
 }
