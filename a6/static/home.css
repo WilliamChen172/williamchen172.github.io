@@ -1,0 +1,235 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+div.header {
+    position: static;
+    background-color: #efefef;
+    margin: 0;
+    height: 50px;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+p.artist_search {
+    position: absolute;
+    font-size: 24px;
+    line-height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    left: 10px;
+}
+
+div.content {
+    width: 100%;
+    padding-bottom: 60px;
+}
+
+#search_bar {
+    margin: 50px auto 0px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 15px;
+    border-color: #dedede;
+    width: 33%;
+    height: 30px;
+}
+
+#search_bar:focus-within {
+    border-color: orange;
+}
+
+#search {
+    float: left;
+    margin: 5px 10px;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    border-style: none;
+    background-color: #ffffff00;
+}
+
+#search_img {
+    float: left;
+    width: 20px;
+    height: 20px;
+    opacity: 30%;
+    cursor: pointer;
+}
+
+#search_img:hover {
+    opacity: 80%;
+}
+
+#search_input {
+    position:relative;
+    margin-top: 4px;
+    margin-bottom: 6px;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 20px;
+    opacity: 50%;
+    border-style: none;
+    width: 75%;
+}
+
+#searchinput, select, textarea{
+    color: #272727;
+}
+
+#search_input:focus{
+    outline: none;
+}
+
+#clear {
+    /* position: absolute; */
+    float: right;
+    margin: 7.5px 10px;
+    width: 15px;
+    height: 15px;
+    opacity: 30%;
+}
+
+#clear:hover {
+    opacity: 80%;
+    cursor: pointer;
+}
+
+
+#loading_space {
+    margin: 0 auto;
+    height: 50px;
+}
+
+#search_results {
+    margin: 0px auto 0px;
+    width: 70%;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+div.artist_card {
+    width:230px;
+    background-color:#205375;
+    display:inline-block;
+    border-bottom: 15px solid white;
+    border-right:10px solid white;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+img.thumbnail {
+    margin: 20px auto 0px;
+    width:200px;
+    height:200px;
+    border-style:solid;
+    border-color:#ffffff;
+    border-radius:110px;
+    border-width:5px;
+    display: block;
+}
+
+p.artist_name {
+    margin: 10px auto;
+    width: 165px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 21px;
+    text-align: center;
+    white-space: normal;
+}
+
+#no_results {
+    margin: 50px auto 0px;
+    width: 50%;
+    height: 50px;
+    background-color: #cccccc;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 50px;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #2a2a2a;
+}
+
+#loading {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60px;
+}
+
+#artist_details {
+    margin: 0 auto;
+    width: 52%;
+    white-space: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+
+#nationality {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#biography {
+    margin-top: 0px;
+    text-align: justify;
+}
+
+
+div.footer {
+    position: fixed;
+    background-color: #13293b;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+}
+
+div.artsy_container {
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 40px;
+    width: 144px;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+p.powered_by {
+    position: absolute;
+    margin: 0;
+    line-height: 40px;
+}
+
+img.artsy_img {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 83px;
+    bottom: 13px;
+}
+
+a.artsy {
+    position: absolute;
+    margin: 0;
+    right: 0px;
+    line-height: 40px;
+    color: white;
+    text-decoration: none;
+    outline-style: none;
+}

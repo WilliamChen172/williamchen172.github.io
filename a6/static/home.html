@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Assignment 6</title>
+  <link rel="stylesheet" href="home.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wdth,wght@120,400&display=swap');
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <p class="artist_search">Artist Search</p>
+  </div>
+  <div class="content">
+    <form id="search_bar" onsubmit="return false">
+      <button id="search" type="submit" alt="search icon"><img id="search_img" src="search_icon.png"></button>
+      <input id="search_input" type="text"  placeholder="Please enter an artist name." required />
+      <img id="clear" src="clear_icon.png" alt="clear icon">
+    </form>
+    <div id="search_results">
+      <div id="dummy_card" class="artist_card" style="display: none;">
+        <img class="thumbnail" src="artsy_logo.svg">
+        <p class="artist_name"> Artist Name</p>
+      </div>
+      <div id="no_results" style="display: none;">No results found.</div>
+    </div>
+    <img id="loading" src="loading.gif" style="display: none">
+    <div id="artist_details">
+      <p id="title"></p>
+      <p id="nationality"></p>
+      <p id="biography"></p>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="artsy_container">
+      <p class="powered_by">Powered by</p>
+      <img class="artsy_img" src="artsy_logo.svg" alt="artsy logo">
+      <a class="artsy" href="https://www.artsy.net">Artsy.</a>
+    </div>
+  </div>
+  <script src="home.js"></script>
+</body>
+
+</html>
