@@ -1,0 +1,36 @@
+.card {
+    min-width: 230px;
+    width: 230px;
+    background-color: #205375;
+    border-style: none;
+    margin-right: 2px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.card-title {
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    margin: auto;
+}
+
+#artists {
+    width: 80%;
+    overflow-x: scroll;
+    margin-top: 50px;
+}
+
+.spinner-border {
+    width: 2.5rem; 
+    height: 2.5rem; 
+    color: #205375;
+    margin-top: 50px;
+    border-width: .2em;
+}
+
+@media screen and (max-width: 540px) {
+    #artists {
+        width: 94%;
+    }
+}

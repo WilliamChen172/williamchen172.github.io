@@ -1,0 +1,14 @@
+<div id="search_bar" class="mx-auto">
+    <input type="text" class="form-control" [ngModel]="search_form" (ngModelChange) = "onChange($event)" (keyup.enter)="getSearchResults()" placeholder="Please enter an artist name.">
+    <div class="container mt-3 text-center">
+        <button type="button" id="search_btn" class="btn btn-primary btn-sm me-1" (click)="getSearchResults()" [disabled]="isDisabled">
+          Search
+          <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true" *ngIf="isSearching"></span>
+        </button>
+        <button type="button" id="clear_btn" class="btn btn-secondary btn-sm" (click)="clearSearch()">Clear</button>
+      </div>
+</div>
+<div class="alert alert-danger mx-auto" role="alert" *ngIf="noResults && !isCleared">
+  No results.
+</div>
+<app-artist-list [artists] = "artists" *ngIf="!noResults && !isCleared"></app-artist-list>

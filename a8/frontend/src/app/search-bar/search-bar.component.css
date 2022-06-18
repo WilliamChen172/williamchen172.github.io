@@ -1,0 +1,40 @@
+#search_bar {
+    width: 80%;
+    margin-top: 40px;
+}
+
+.btn {
+    font-size: 13px;
+    height: 35px;
+    padding: 4px 12px;
+}
+
+#search_btn {
+    background-color: #205375;
+}
+
+#clear_btn {
+    width: 60px;
+}
+
+.spinner-border {
+    width: 0.8rem;
+    height: 0.8rem;
+    border-width: .2em;
+}
+
+.alert {
+    width: 80%;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 540px) {
+    #search_bar {
+        width: 94%;
+    }
+
+    .alert {
+        width: 94%;
+        margin-top: 50px;
+    }
+}

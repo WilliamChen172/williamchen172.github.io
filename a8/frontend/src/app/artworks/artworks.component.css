@@ -1,0 +1,90 @@
+#artworks {
+    margin: 20px auto 70px;
+    width: 95%;
+}
+
+.card {
+    max-width: 250px;
+    max-height: 600px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+
+}
+
+.card-title {
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.card-date {
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: -12px;
+}
+
+#cate-btn {
+    width: 85%;
+    height: 40px;
+    margin-bottom: 15px;
+    background-color: #205375;
+    color: white;
+    font-size: 15px;
+    border-style: none;
+    border-radius: 2px;
+}
+
+.modal-dialog {
+    max-width: 65%;
+}
+
+@media screen and (max-width: 540px) {
+    .modal-dialog {
+        max-width: 90%;
+    }
+}
+
+.modal-header {
+    height: 90px;
+    padding: 10px;
+}
+
+.modal-thumbnail {
+    height: 100%;
+}
+
+.modal-title {
+    padding-left: 5px;
+    height: 50px;
+    text-align: left;
+    line-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.modal-name {
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 2px;
+}
+
+.modal-date {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+.spinner-border {
+    width: 2.5rem; 
+    height: 2.5rem; 
+    color: #205375;
+    margin-top: 0px;
+    border-width: .2em;
+}
+
+.alert {
+    width: 100%;
+    margin-top: 0px;
+}
