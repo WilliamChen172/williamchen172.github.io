@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const artsy = require('./artsy');
 
-app.use(express.static("../frontend/dist/my-app"))
+app.use(express.static("./dist/my-app"))
 
 app.get('/', (req, res) => {
   res.sendFile('index.html', {root: __dirname})

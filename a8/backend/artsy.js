@@ -37,7 +37,6 @@ async function search(keyword) {
             if (r[i].og_type == "artist") {
                 artist_link = r[i]._links.self.href;
                 id = artist_link.split('/').pop();
-                console.log(id);
                 artist = {name: r[i].title, thumbnail: r[i]._links.thumbnail.href, id: id};
                 results.push(artist);
             }
@@ -88,7 +87,6 @@ async function genes(artwork_id) {
         const response = await axios.get('https://api.artsy.net/api/genes', { headers: headers, params: params});
 
         g = response.data._embedded.genes;
-        console.log(g)
         const genes = [];
         for (let i in g) {
             gene = {name: g[i].name, thumbnail: g[i]._links.thumbnail.href};
