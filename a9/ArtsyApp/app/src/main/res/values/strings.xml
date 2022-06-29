@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ArtsyApp</string>
+    <string name="artist_search">ArtistSearch</string>
+    <string name="favorites">Favorites</string>
+    <string name="search_hint">Search…</string>
+    <string name="title_activity_artist_info">ArtistInfoActivity</string>
+    <string name="details">Details</string>
+    <string name="artwork">Artwork</string>
+    <string name="name_key">Name</string>
+    <string name="nationality_key">Nationality</string>
+    <string name="birthday_key">Birthday</string>
+    <string name="deathday_key">Deathday</string>
+    <string name="biography_key">Biography</string>
+    <string name="loading">loading…</string>
+    <string name="category">Category</string>
+    <string name="description">Description</string>
+    <string name="add_favorites">\u0020is added to favorites</string>
+    <string name="remove_favorites">\u0020is removed from favorites</string>
+    <string name="powered_by_artsy">Powered by Artsy</string>
+    <string name="no_result">No Result Found</string>
+    <string name="no_artwork">No Artwork Available</string>
+    <string name="no_category">No Category Available</string>
+</resources>

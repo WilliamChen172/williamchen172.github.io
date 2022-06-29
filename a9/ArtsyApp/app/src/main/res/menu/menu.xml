@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/search_view"
+        android:layout_width="match_parent"
+        android:icon="@drawable/search_icon"
+        android:title="@string/artist_search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:theme="@style/ArtsyApp.Toolbar" />
+</menu>

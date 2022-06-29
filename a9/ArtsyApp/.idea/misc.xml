@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.15467625899280577" />
+        <entry key="../../Documents/GitHub/williamchen172.github.io/a9/ArtsyApp/app/src/main/res/layout/fragment_artwork.xml" value="0.15555555555555556" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1425" />
+        <entry key="app/src/main/res/drawable/artist_border.xml" value="0.1425" />
+        <entry key="app/src/main/res/drawable/artsy_logo.xml" value="0.18" />
+        <entry key="app/src/main/res/drawable/artsy_logo_border.xml" value="0.1795" />
+        <entry key="app/src/main/res/drawable/artsy_logo_round.xml" value="0.179" />
+        <entry key="app/src/main/res/drawable/artwork.xml" value="0.258" />
+        <entry key="app/src/main/res/drawable/artwork_card.xml" value="0.1425" />
+        <entry key="app/src/main/res/drawable/artwork_icon.xml" value="0.1425" />
+        <entry key="app/src/main/res/drawable/back.xml" value="0.1425" />
+        <entry key="app/src/main/res/drawable/border.xml" value="0.1425" />
+        <entry key="app/src/main/res/drawable/chevron.xml" value="0.258" />
+        <entry key="app/src/main/res/drawable/date_border.xml" value="0.1425" />
+        <entry key="app/src/main/res/drawable/details.xml" value="0.258" />
+        <entry key="app/src/main/res/drawable/details_icon.xml" value="0.1425" />
+        <entry key="app/src/main/res/drawable/favorite_row.xml" value="0.16316070556640627" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1425" />
+        <entry key="app/src/main/res/drawable/launch_logo.xml" value="0.12980413818359374" />
+        <entry key="app/src/main/res/drawable/launch_screen.xml" value="0.1425" />
+        <entry key="app/src/main/res/drawable/magnify.xml" value="0.18" />
+        <entry key="app/src/main/res/drawable/search.xml" value="0.258" />
+        <entry key="app/src/main/res/drawable/search_icon.xml" value="0.18" />
+        <entry key="app/src/main/res/drawable/search_null.xml" value="0.1425" />
+        <entry key="app/src/main/res/drawable/star.xml" value="0.1425" />
+        <entry key="app/src/main/res/drawable/star_outline.xml" value="0.1425" />
+        <entry key="app/src/main/res/drawable/tab_border.xml" value="0.21349090576171886" />
+        <entry key="app/src/main/res/drawable/tab_border_null.xml" value="0.1425" />
+        <entry key="app/src/main/res/layout/activity_artist_info.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.17601776123046878" />
+        <entry key="app/src/main/res/layout/activity_search.xml" value="0.24676513671875" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.22867126464843734" />
+        <entry key="app/src/main/res/layout/card_artist.xml" value="0.15673217773437503" />
+        <entry key="app/src/main/res/layout/card_artwork.xml" value="0.29297163221571193" />
+        <entry key="app/src/main/res/layout/category_dialog.xml" value="0.39287567138671875" />
+        <entry key="app/src/main/res/layout/content_artist_info.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/empty_dialog.xml" value="0.4182708740234375" />
+        <entry key="app/src/main/res/layout/fragment_artist_artwork.xml" value="0.17135416666666667" />
+        <entry key="app/src/main/res/layout/fragment_artist_detail.xml" value="0.19680362101869464" />
+        <entry key="app/src/main/res/layout/fragment_artwork.xml" value="0.3208358764648438" />
+        <entry key="app/src/main/res/layout/fragment_first.xml" value="0.3333333333333333" />
+        <entry key="app/src/main/res/layout/fragment_search.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/row_artist.xml" value="0.48151550292968753" />
+        <entry key="app/src/main/res/layout/row_favorite.xml" value="0.312316715542522" />
+        <entry key="app/src/main/res/layout/sdfsdf.xml" value="0.28532608695652173" />
+        <entry key="app/src/main/res/menu/menu.xml" value="0.33229166666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.25478820800781254" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

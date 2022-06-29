@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.ArtistInfoActivity">
+
+
+    <Button
+        android:id="@+id/details_btn"
+        android:layout_width="204dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="-2dp"
+        android:background="@color/white"
+        android:paddingTop="40dp"
+        android:stateListAnimator="@null"
+        android:text="@string/details"
+        android:textAllCaps="true"
+        android:textColor="@color/dark_blue"
+        app:layout_constraintEnd_toStartOf="@+id/artwork_btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/info_bar" />
+
+    <ImageView
+        android:id="@+id/details_icon"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/details_btn"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="@+id/details_btn"
+        app:layout_constraintTop_toBottomOf="@+id/info_bar"
+        app:srcCompat="@drawable/details_icon" />
+
+    <Button
+        android:id="@+id/artwork_btn"
+        android:layout_width="206dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="-2dp"
+        android:background="@color/white"
+        android:paddingTop="40dp"
+        android:stateListAnimator="@null"
+        android:text="@string/artwork"
+        android:textAllCaps="true"
+        android:textColor="@color/dark_blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/details_btn"
+        app:layout_constraintTop_toBottomOf="@+id/info_bar" />
+
+    <ImageView
+        android:id="@+id/artwork_icon"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/details_btn"
+        app:layout_constraintTop_toBottomOf="@+id/info_bar"
+        app:srcCompat="@drawable/artwork_icon" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/info_bar"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:background="@color/dark_blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:popupTheme="@style/PopupOverlay"
+        app:theme="@style/ArtsyApp.Toolbar" />
+
+    <ImageView
+        android:id="@+id/favorite_btn"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/info_bar"
+        app:layout_constraintEnd_toEndOf="@+id/info_bar"
+        app:layout_constraintTop_toTopOf="@+id/info_bar"
+        app:srcCompat="@drawable/star_outline" />
+
+    <TextView
+        android:id="@+id/artist_title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/info_bar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/info_bar" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/details_btn"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ProgressBar
+        android:id="@+id/info_loading"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminateTint="@color/blue"
+        app:layout_constraintBottom_toBottomOf="@+id/fragmentContainerView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/info_bar" />
+
+    <TextView
+        android:id="@+id/info_loading_text"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:layout_marginTop="1dp"
+        android:text="@string/loading"
+        app:layout_constraintEnd_toEndOf="@+id/fragmentContainerView"
+        app:layout_constraintStart_toStartOf="@+id/fragmentContainerView"
+        app:layout_constraintTop_toBottomOf="@+id/info_loading" />
+
+    <TextView
+        android:id="@+id/detail_border"
+        android:layout_width="0dp"
+        android:layout_height="3dp"
+        android:background="@color/blue"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="@+id/details_btn"
+        app:layout_constraintEnd_toEndOf="@+id/details_btn"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/artwork_border"
+        android:layout_width="0dp"
+        android:layout_height="3dp"
+        android:background="@color/white"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="@+id/artwork_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/details_btn" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
